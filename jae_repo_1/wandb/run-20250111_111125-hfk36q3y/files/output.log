@@ -1,0 +1,1 @@
+[34m[1mwandb[0m: [32m[41mERROR[0m LinkArtifact: test, error: returned error 400 Bad Request: {"errors":[{"message":"artifact `1434187425` from collection `run-b60vld6u-history` is a generated artifact of type `wandb-history` and cannot be linked to another collection","path":["linkArtifact"]}],"data":{"linkArtifact":null}}

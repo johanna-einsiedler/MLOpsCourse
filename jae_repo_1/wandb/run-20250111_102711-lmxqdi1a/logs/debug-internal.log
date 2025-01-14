@@ -1,0 +1,15 @@
+{"time":"2025-01-11T10:27:12.537114+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/wandb/run-20250111_102711-lmxqdi1a/logs/debug-core.log"}
+{"time":"2025-01-11T10:27:12.704473+01:00","level":"INFO","msg":"created new stream","id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:12.704991+01:00","level":"INFO","msg":"stream: started","id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:12.705152+01:00","level":"INFO","msg":"handler: started","stream_id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:12.705647+01:00","level":"INFO","msg":"sender: started","stream_id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:12.705665+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:13.187547+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-11T10:27:17.868959+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-11T10:27:17.870171+01:00","level":"INFO","msg":"stream: closing","id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:17.897036+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-11T10:27:18.683047+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-11T10:27:19.167485+01:00","level":"INFO","msg":"handler: closed","stream_id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:19.168299+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:19.169103+01:00","level":"INFO","msg":"sender: closed","stream_id":"lmxqdi1a"}
+{"time":"2025-01-11T10:27:19.171404+01:00","level":"INFO","msg":"stream: closed","id":"lmxqdi1a"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-11T11:03:10.016613+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/wandb/run-20250111_110308-eybereun/logs/debug-core.log"}
+{"time":"2025-01-11T11:03:10.194816+01:00","level":"INFO","msg":"created new stream","id":"eybereun"}
+{"time":"2025-01-11T11:03:10.195508+01:00","level":"INFO","msg":"stream: started","id":"eybereun"}
+{"time":"2025-01-11T11:03:10.195873+01:00","level":"INFO","msg":"handler: started","stream_id":"eybereun"}
+{"time":"2025-01-11T11:03:10.195999+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"eybereun"}
+{"time":"2025-01-11T11:03:10.196471+01:00","level":"INFO","msg":"sender: started","stream_id":"eybereun"}
+{"time":"2025-01-11T11:03:10.749885+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-11T11:03:17.030104+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-11T11:03:17.030866+01:00","level":"INFO","msg":"stream: closing","id":"eybereun"}
+{"time":"2025-01-11T11:03:17.081623+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-11T11:03:17.863856+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-11T11:03:18.317238+01:00","level":"INFO","msg":"handler: closed","stream_id":"eybereun"}
+{"time":"2025-01-11T11:03:18.319059+01:00","level":"INFO","msg":"sender: closed","stream_id":"eybereun"}
+{"time":"2025-01-11T11:03:18.318627+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"eybereun"}
+{"time":"2025-01-11T11:03:18.323046+01:00","level":"INFO","msg":"stream: closed","id":"eybereun"}

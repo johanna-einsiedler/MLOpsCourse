@@ -1,0 +1,15 @@
+{"time":"2025-01-11T10:40:02.587117+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/wandb/run-20250111_104001-4hydyasg/logs/debug-core.log"}
+{"time":"2025-01-11T10:40:02.776313+01:00","level":"INFO","msg":"created new stream","id":"4hydyasg"}
+{"time":"2025-01-11T10:40:02.777385+01:00","level":"INFO","msg":"stream: started","id":"4hydyasg"}
+{"time":"2025-01-11T10:40:02.777871+01:00","level":"INFO","msg":"handler: started","stream_id":"4hydyasg"}
+{"time":"2025-01-11T10:40:02.778106+01:00","level":"INFO","msg":"sender: started","stream_id":"4hydyasg"}
+{"time":"2025-01-11T10:40:02.77802+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"4hydyasg"}
+{"time":"2025-01-11T10:40:03.482411+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-11T10:40:10.678769+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-11T10:40:10.68197+01:00","level":"INFO","msg":"stream: closing","id":"4hydyasg"}
+{"time":"2025-01-11T10:40:10.707564+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-11T10:40:11.422771+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-11T10:40:11.870932+01:00","level":"INFO","msg":"handler: closed","stream_id":"4hydyasg"}
+{"time":"2025-01-11T10:40:11.872465+01:00","level":"INFO","msg":"sender: closed","stream_id":"4hydyasg"}
+{"time":"2025-01-11T10:40:11.871962+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4hydyasg"}
+{"time":"2025-01-11T10:40:11.879219+01:00","level":"INFO","msg":"stream: closed","id":"4hydyasg"}

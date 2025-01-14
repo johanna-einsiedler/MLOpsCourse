@@ -1,0 +1,15 @@
+{"time":"2025-01-13T11:05:45.426543+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/wandb/run-20250113_110539-buywyrer/logs/debug-core.log"}
+{"time":"2025-01-13T11:05:46.25663+01:00","level":"INFO","msg":"created new stream","id":"buywyrer"}
+{"time":"2025-01-13T11:05:46.257579+01:00","level":"INFO","msg":"stream: started","id":"buywyrer"}
+{"time":"2025-01-13T11:05:46.258415+01:00","level":"INFO","msg":"handler: started","stream_id":"buywyrer"}
+{"time":"2025-01-13T11:05:46.25851+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"buywyrer"}
+{"time":"2025-01-13T11:05:46.25857+01:00","level":"INFO","msg":"sender: started","stream_id":"buywyrer"}
+{"time":"2025-01-13T11:05:46.80168+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-13T11:06:52.250958+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-13T11:06:52.253079+01:00","level":"INFO","msg":"stream: closing","id":"buywyrer"}
+{"time":"2025-01-13T11:06:52.281866+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-13T11:06:52.955808+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-13T11:06:53.5036+01:00","level":"INFO","msg":"handler: closed","stream_id":"buywyrer"}
+{"time":"2025-01-13T11:06:53.50428+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"buywyrer"}
+{"time":"2025-01-13T11:06:53.523152+01:00","level":"INFO","msg":"sender: closed","stream_id":"buywyrer"}
+{"time":"2025-01-13T11:06:53.5265+01:00","level":"INFO","msg":"stream: closed","id":"buywyrer"}

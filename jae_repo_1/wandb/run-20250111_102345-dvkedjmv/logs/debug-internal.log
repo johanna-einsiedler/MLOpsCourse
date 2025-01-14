@@ -1,0 +1,15 @@
+{"time":"2025-01-11T10:23:47.385163+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/wandb/run-20250111_102345-dvkedjmv/logs/debug-core.log"}
+{"time":"2025-01-11T10:23:47.658033+01:00","level":"INFO","msg":"created new stream","id":"dvkedjmv"}
+{"time":"2025-01-11T10:23:47.658626+01:00","level":"INFO","msg":"stream: started","id":"dvkedjmv"}
+{"time":"2025-01-11T10:23:47.658642+01:00","level":"INFO","msg":"handler: started","stream_id":"dvkedjmv"}
+{"time":"2025-01-11T10:23:47.658982+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dvkedjmv"}
+{"time":"2025-01-11T10:23:47.658979+01:00","level":"INFO","msg":"sender: started","stream_id":"dvkedjmv"}
+{"time":"2025-01-11T10:23:48.122606+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-11T10:24:02.867553+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-11T10:24:02.868308+01:00","level":"INFO","msg":"stream: closing","id":"dvkedjmv"}
+{"time":"2025-01-11T10:24:02.903181+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-11T10:24:03.647214+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-11T10:24:04.228802+01:00","level":"INFO","msg":"handler: closed","stream_id":"dvkedjmv"}
+{"time":"2025-01-11T10:24:04.230914+01:00","level":"INFO","msg":"sender: closed","stream_id":"dvkedjmv"}
+{"time":"2025-01-11T10:24:04.229988+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dvkedjmv"}
+{"time":"2025-01-11T10:24:04.235865+01:00","level":"INFO","msg":"stream: closed","id":"dvkedjmv"}

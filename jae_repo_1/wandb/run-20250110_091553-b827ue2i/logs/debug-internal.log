@@ -1,0 +1,16 @@
+{"time":"2025-01-10T09:15:54.717811+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/wandb/run-20250110_091553-b827ue2i/logs/debug-core.log"}
+{"time":"2025-01-10T09:15:54.928055+01:00","level":"INFO","msg":"created new stream","id":"b827ue2i"}
+{"time":"2025-01-10T09:15:54.928792+01:00","level":"INFO","msg":"stream: started","id":"b827ue2i"}
+{"time":"2025-01-10T09:15:54.929274+01:00","level":"INFO","msg":"handler: started","stream_id":"b827ue2i"}
+{"time":"2025-01-10T09:15:54.9294+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"b827ue2i"}
+{"time":"2025-01-10T09:15:54.929384+01:00","level":"INFO","msg":"sender: started","stream_id":"b827ue2i"}
+{"time":"2025-01-10T09:15:55.859585+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T09:15:56.538724+01:00","level":"ERROR","msg":"request failed","error":"Put \"https://storage.googleapis.com/wandb-production.appspot.com/jae__-none/corrupt_mnist/b827ue2i/wandb-metadata.json?Expires=1736583356&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=IC6SyQM7zv4SD2Oj6URsrgffQtbpyqkrO7HNzO7mTIOkJKQYH69%2FjogYlBs3fCrqHZEfqd%2BGEC0Kd%2FFlm0RuwxEe75DiDlTS9kNLeL0ciVsjunXWsucXiSHbr47kX80CmZQXdA4te37jz4GK%2F0ep0pM1DFmZU2rg%2BtCg8NrY0iAEsX3tcg5P3rYNYrdGp51hNwbuagaQiu%2BosxwV7waNs4EaL35pSpE7Sxkwfal9xVeOMXEDkI5DE2Y5fO6lKc3PP1PmpVT0L2zto9PBGkvb0LV1XU776LJHYtDmYJTbDX%2FPaLvusLDPG%2FK2ApjYfJfq%2BPRSaIv2U0RnsunRAoMdOA%3D%3D\": write tcp [fe80::78bf:53ed:7965:4f3b%utun6]:52032->[2a00:1450:4025:c01::cf]:443: write: socket is not connected","method":"PUT","url":"https://storage.googleapis.com/wandb-production.appspot.com/jae__-none/corrupt_mnist/b827ue2i/wandb-metadata.json?Expires=1736583356&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=IC6SyQM7zv4SD2Oj6URsrgffQtbpyqkrO7HNzO7mTIOkJKQYH69%2FjogYlBs3fCrqHZEfqd%2BGEC0Kd%2FFlm0RuwxEe75DiDlTS9kNLeL0ciVsjunXWsucXiSHbr47kX80CmZQXdA4te37jz4GK%2F0ep0pM1DFmZU2rg%2BtCg8NrY0iAEsX3tcg5P3rYNYrdGp51hNwbuagaQiu%2BosxwV7waNs4EaL35pSpE7Sxkwfal9xVeOMXEDkI5DE2Y5fO6lKc3PP1PmpVT0L2zto9PBGkvb0LV1XU776LJHYtDmYJTbDX%2FPaLvusLDPG%2FK2ApjYfJfq%2BPRSaIv2U0RnsunRAoMdOA%3D%3D"}
+{"time":"2025-01-10T09:16:45.651436+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T09:16:45.653104+01:00","level":"INFO","msg":"stream: closing","id":"b827ue2i"}
+{"time":"2025-01-10T09:16:45.68592+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T09:16:47.195786+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-10T09:16:47.99258+01:00","level":"INFO","msg":"handler: closed","stream_id":"b827ue2i"}
+{"time":"2025-01-10T09:16:47.993761+01:00","level":"INFO","msg":"sender: closed","stream_id":"b827ue2i"}
+{"time":"2025-01-10T09:16:47.992983+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b827ue2i"}
+{"time":"2025-01-10T09:16:47.999366+01:00","level":"INFO","msg":"stream: closed","id":"b827ue2i"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-11T10:44:27.193456+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/wandb/run-20250111_104426-nhio5x71/logs/debug-core.log"}
+{"time":"2025-01-11T10:44:27.360202+01:00","level":"INFO","msg":"created new stream","id":"nhio5x71"}
+{"time":"2025-01-11T10:44:27.36166+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nhio5x71"}
+{"time":"2025-01-11T10:44:27.361751+01:00","level":"INFO","msg":"handler: started","stream_id":"nhio5x71"}
+{"time":"2025-01-11T10:44:27.361926+01:00","level":"INFO","msg":"sender: started","stream_id":"nhio5x71"}
+{"time":"2025-01-11T10:44:27.362561+01:00","level":"INFO","msg":"stream: started","id":"nhio5x71"}
+{"time":"2025-01-11T10:44:27.966456+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-11T10:44:28.737945+01:00","level":"INFO","msg":"stream: closing","id":"nhio5x71"}
+{"time":"2025-01-11T10:44:28.737762+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-11T10:44:28.749669+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-11T10:44:29.440434+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-11T10:44:29.813686+01:00","level":"INFO","msg":"handler: closed","stream_id":"nhio5x71"}
+{"time":"2025-01-11T10:44:29.814967+01:00","level":"INFO","msg":"sender: closed","stream_id":"nhio5x71"}
+{"time":"2025-01-11T10:44:29.814456+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nhio5x71"}
+{"time":"2025-01-11T10:44:29.819203+01:00","level":"INFO","msg":"stream: closed","id":"nhio5x71"}

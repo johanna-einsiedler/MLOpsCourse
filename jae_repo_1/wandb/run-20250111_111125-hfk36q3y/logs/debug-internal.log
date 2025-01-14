@@ -1,0 +1,18 @@
+{"time":"2025-01-11T11:11:25.92481+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/wandb/run-20250111_111125-hfk36q3y/logs/debug-core.log"}
+{"time":"2025-01-11T11:11:26.09406+01:00","level":"INFO","msg":"created new stream","id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:26.094704+01:00","level":"INFO","msg":"stream: started","id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:26.094856+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:26.094926+01:00","level":"INFO","msg":"handler: started","stream_id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:26.095085+01:00","level":"INFO","msg":"sender: started","stream_id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:26.527698+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-11T11:11:29.082919+01:00","level":"ERROR","msg":"HTTP error","status":400,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-11T11:11:29.084426+01:00","level":"ERROR","msg":"sender: linkArtifact:","error":"LinkArtifact: test, error: returned error 400 Bad Request: {\"errors\":[{\"message\":\"artifact `1434187425` from collection `run-b60vld6u-history` is a generated artifact of type `wandb-history` and cannot be linked to another collection\",\"path\":[\"linkArtifact\"]}],\"data\":{\"linkArtifact\":null}}"}
+{"time":"2025-01-11T11:11:29.089697+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-11T11:11:29.101764+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-11T11:11:29.791008+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-11T11:11:30.075646+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-01-11T11:11:31.083788+01:00","level":"INFO","msg":"stream: closing","id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:31.084476+01:00","level":"INFO","msg":"handler: closed","stream_id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:31.08571+01:00","level":"INFO","msg":"sender: closed","stream_id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:31.085406+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hfk36q3y"}
+{"time":"2025-01-11T11:11:31.091479+01:00","level":"INFO","msg":"stream: closed","id":"hfk36q3y"}

@@ -1,0 +1,236 @@
+2025-01-11 10:42:55 ERROR 404 response executing GraphQL.
+2025-01-11 10:42:55 ERROR {"errors":[{"message":"entity not found during upsertSweep","path":["upsertSweep"]}],"data":{"upsertSweep":null}}
+2025-01-11 10:42:55 ERROR Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 393, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 890, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 57, in wrapper
+    raise err
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3332, in upsert_sweep
+    raise e
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3326, in upsert_sweep
+    response = self.gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 365, in gql
+    ret = self._retry_gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/util.py", line 853, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: entity not found during upsertSweep
+
+2025-01-11 10:45:50 ERROR 404 response executing GraphQL.
+2025-01-11 10:45:50 ERROR {"errors":[{"message":"entity not found during upsertSweep","path":["upsertSweep"]}],"data":{"upsertSweep":null}}
+2025-01-11 10:45:50 ERROR Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 393, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 890, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 57, in wrapper
+    raise err
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3332, in upsert_sweep
+    raise e
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3326, in upsert_sweep
+    response = self.gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 365, in gql
+    ret = self._retry_gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/util.py", line 853, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: entity not found during upsertSweep
+
+2025-01-11 10:47:23 ERROR 400 response executing GraphQL.
+2025-01-11 10:47:23 ERROR {"errors":[{"message":"Invalid sweep config: Sweep config must contain method section","path":["upsertSweep"]}],"data":{"upsertSweep":null}}
+2025-01-11 10:47:23 ERROR Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 393, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 890, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 57, in wrapper
+    raise err
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3332, in upsert_sweep
+    raise e
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3326, in upsert_sweep
+    response = self.gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 365, in gql
+    ret = self._retry_gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/util.py", line 853, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: Invalid sweep config: Sweep config must contain method section
+
+2025-01-11 10:48:04 ERROR 400 response executing GraphQL.
+2025-01-11 10:48:04 ERROR {"errors":[{"message":"Invalid sweep config: Parameter learning_rate is a disallowed type with grid search. Grid search requires all parameters to be categorical, constant, int_uniform, or q_uniform. Specification of probabilities for categorical parameters is disallowed in grid search","path":["upsertSweep"]}],"data":{"upsertSweep":null}}
+2025-01-11 10:48:04 ERROR Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 393, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 890, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 57, in wrapper
+    raise err
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3332, in upsert_sweep
+    raise e
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3326, in upsert_sweep
+    response = self.gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 365, in gql
+    ret = self._retry_gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/util.py", line 853, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: Invalid sweep config: Parameter learning_rate is a disallowed type with grid search. Grid search requires all parameters to be categorical, constant, int_uniform, or q_uniform. Specification of probabilities for categorical parameters is disallowed in grid search
+
+2025-01-11 10:49:02 ERROR 400 response executing GraphQL.
+2025-01-11 10:49:02 ERROR {"errors":[{"message":"name required for project query","path":["project"]}],"data":{"project":null}}
+2025-01-11 10:49:02 ERROR Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 1110, in sweep
+    response = self.gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 365, in gql
+    ret = self._retry_gql(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 393, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/cli/cli.py", line 1680, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/wandb_agent.py", line 567, in agent
+    return run_agent(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/wandb_agent.py", line 526, in run_agent
+    agent.run()
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/wandb_agent.py", line 193, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/internal.py", line 130, in sweep
+    return self.api.sweep(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/wandb/apis/normalize.py", line 35, in wrapper
+    raise CommError(message, error)
+wandb.errors.errors.CommError: name required for project query (Error 400: Bad Request)
+
+2025-01-11 10:51:11 INFO Running runs: []
+2025-01-11 10:51:11 INFO Agent received command: run
+2025-01-11 10:51:11 INFO Agent starting run with config:
+	batch_size: 16
+	epochs: 5
+	learning_rate: 1.0582664863302398
+2025-01-11 10:51:11 INFO About to run command: /usr/bin/env python train.py --batch_size=16 --epochs=5 --learning_rate=1.0582664863302398
+2025-01-11 10:51:16 INFO Running runs: ['yu29qjhg']
+2025-01-11 10:51:16 INFO Cleaning up finished run: yu29qjhg
+2025-01-11 10:51:16 INFO Agent received command: run
+2025-01-11 10:51:16 INFO Agent starting run with config:
+	batch_size: 32
+	epochs: 5
+	learning_rate: 1.0917061025618344
+2025-01-11 10:51:16 INFO About to run command: /usr/bin/env python train.py --batch_size=32 --epochs=5 --learning_rate=1.0917061025618344
+2025-01-11 10:51:21 INFO Running runs: ['01guj25j']
+2025-01-11 10:51:21 INFO Cleaning up finished run: 01guj25j
+2025-01-11 10:51:22 INFO Agent received command: run
+2025-01-11 10:51:22 INFO Agent starting run with config:
+	batch_size: 32
+	epochs: 10
+	learning_rate: 1.0149534313354722
+2025-01-11 10:51:22 INFO About to run command: /usr/bin/env python train.py --batch_size=32 --epochs=10 --learning_rate=1.0149534313354722
+2025-01-11 10:51:27 INFO Running runs: ['xlzha0tz']
+2025-01-11 10:51:27 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-01-11 10:51:27 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true

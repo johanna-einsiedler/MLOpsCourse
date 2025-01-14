@@ -1,0 +1,15 @@
+{"time":"2025-01-10T19:12:50.641516+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/wandb/run-20250110_191246-nhkwqrl0/logs/debug-core.log"}
+{"time":"2025-01-10T19:12:50.823318+01:00","level":"INFO","msg":"created new stream","id":"nhkwqrl0"}
+{"time":"2025-01-10T19:12:50.824251+01:00","level":"INFO","msg":"stream: started","id":"nhkwqrl0"}
+{"time":"2025-01-10T19:12:50.824709+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nhkwqrl0"}
+{"time":"2025-01-10T19:12:50.824841+01:00","level":"INFO","msg":"sender: started","stream_id":"nhkwqrl0"}
+{"time":"2025-01-10T19:12:50.824911+01:00","level":"INFO","msg":"handler: started","stream_id":"nhkwqrl0"}
+{"time":"2025-01-10T19:12:58.260219+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T19:13:02.014563+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T19:13:02.016455+01:00","level":"INFO","msg":"stream: closing","id":"nhkwqrl0"}
+{"time":"2025-01-10T19:13:02.0242+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T19:13:02.863511+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-10T19:13:03.468463+01:00","level":"INFO","msg":"handler: closed","stream_id":"nhkwqrl0"}
+{"time":"2025-01-10T19:13:03.46966+01:00","level":"INFO","msg":"sender: closed","stream_id":"nhkwqrl0"}
+{"time":"2025-01-10T19:13:03.469196+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nhkwqrl0"}
+{"time":"2025-01-10T19:13:03.472753+01:00","level":"INFO","msg":"stream: closed","id":"nhkwqrl0"}

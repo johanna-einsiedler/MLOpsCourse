@@ -1,0 +1,16 @@
+{"time":"2025-01-13T22:06:35.057071+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/wandb/run-20250113_220630-s4q7xepg/logs/debug-core.log"}
+{"time":"2025-01-13T22:06:35.500364+01:00","level":"INFO","msg":"created new stream","id":"s4q7xepg"}
+{"time":"2025-01-13T22:06:35.501078+01:00","level":"INFO","msg":"stream: started","id":"s4q7xepg"}
+{"time":"2025-01-13T22:06:35.501634+01:00","level":"INFO","msg":"handler: started","stream_id":"s4q7xepg"}
+{"time":"2025-01-13T22:06:35.50187+01:00","level":"INFO","msg":"sender: started","stream_id":"s4q7xepg"}
+{"time":"2025-01-13T22:06:35.501666+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"s4q7xepg"}
+{"time":"2025-01-13T22:06:35.923374+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-13T22:08:24.151591+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-13T22:08:24.180462+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-13T22:08:25.154645+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact corrupt_mnist_model","runtime_seconds":1.0034705,"subtasks":[{"desc":"model.pth","runtime_seconds":0.31274925,"progress":"369.7KB/369.7KB"}]}],"total_operations":1}}
+{"time":"2025-01-13T22:08:27.036111+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-13T22:08:28.298552+01:00","level":"INFO","msg":"stream: closing","id":"s4q7xepg"}
+{"time":"2025-01-13T22:08:28.299012+01:00","level":"INFO","msg":"handler: closed","stream_id":"s4q7xepg"}
+{"time":"2025-01-13T22:08:28.300289+01:00","level":"INFO","msg":"sender: closed","stream_id":"s4q7xepg"}
+{"time":"2025-01-13T22:08:28.299514+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s4q7xepg"}
+{"time":"2025-01-13T22:08:28.302701+01:00","level":"INFO","msg":"stream: closed","id":"s4q7xepg"}

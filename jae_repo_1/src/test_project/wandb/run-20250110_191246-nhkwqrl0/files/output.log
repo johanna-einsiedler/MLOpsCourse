@@ -1,0 +1,118 @@
+Traceback (most recent call last):
+  File "/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/train.py", line 76, in <module>
+    typer.run(train)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/typer/main.py", line 1074, in run
+    app()
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/typer/main.py", line 340, in __call__
+    raise e
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/typer/main.py", line 323, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/typer/core.py", line 680, in main
+    return _main(
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/typer/core.py", line 198, in _main
+    rv = self.invoke(ctx)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/typer/main.py", line 698, in wrapper
+    return callback(**use_params)
+  File "/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/train.py", line 22, in train
+    train_set, _ = corrupt_mnist()
+  File "/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/data.py", line 38, in corrupt_mnist
+    train_images = torch.load("data/processed/train_images.pt")
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/torch/serialization.py", line 998, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/torch/serialization.py", line 445, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/torch/serialization.py", line 426, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/train_images.pt'
+[31m╭─[0m[31m───────────────────────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m────────────────────────────────────────────[0m[31m─╮[0m
+[31m│[0m [2;33m/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/[0m[1;33mtrain.py[0m:[94m22[0m in [92mtrain[0m                             [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m   [2m19 [0m[2m│   [0m)                                                                                                                 [31m│[0m
+[31m│[0m   [2m20 [0m[2m│   [0m                                                                                                                  [31m│[0m
+[31m│[0m   [2m21 [0m[2m│   [0mmodel = MyAwesomeModel().to(DEVICE)                                                                               [31m│[0m
+[31m│[0m [31m❱ [0m22 [2m│   [0mtrain_set, _ = corrupt_mnist()                                                                                    [31m│[0m
+[31m│[0m   [2m23 [0m[2m│   [0m                                                                                                                  [31m│[0m
+[31m│[0m   [2m24 [0m[2m│   [0mtrain_dataloader = torch.utils.data.DataLoader(train_set, batch_size=batch_size)                                  [31m│[0m
+[31m│[0m   [2m25 [0m                                                                                                                      [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m [33m╭─[0m[33m─────────────────────────────────[0m[33m locals [0m[33m─────────────────────────────────[0m[33m─╮[0m                                             [31m│[0m
+[31m│[0m [33m│[0m batch_size = [94m32[0m                                                            [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m     epochs = [94m5[0m                                                             [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m         lr = [94m0.001[0m                                                         [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m      model = [1;35mMyAwesomeModel[0m[1m([0m                                               [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m              [2m  [0m[1m([0mconv1[1m)[0m: [1;35mConv2d[0m[1m([0m[94m1[0m, [94m32[0m, [33mkernel_size[0m=[1m([0m[94m3[0m, [94m3[0m[1m)[0m, [33mstride[0m=[1m([0m[94m1[0m, [94m1[0m[1m)[0m[1m)[0m   [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m              [2m  [0m[1m([0mconv2[1m)[0m: [1;35mConv2d[0m[1m([0m[94m32[0m, [94m64[0m, [33mkernel_size[0m=[1m([0m[94m3[0m, [94m3[0m[1m)[0m, [33mstride[0m=[1m([0m[94m1[0m, [94m1[0m[1m)[0m[1m)[0m  [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m              [2m  [0m[1m([0mconv3[1m)[0m: [1;35mConv2d[0m[1m([0m[94m64[0m, [94m128[0m, [33mkernel_size[0m=[1m([0m[94m3[0m, [94m3[0m[1m)[0m, [33mstride[0m=[1m([0m[94m1[0m, [94m1[0m[1m)[0m[1m)[0m [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m              [2m  [0m[1m([0mdropout[1m)[0m: [1;35mDropout[0m[1m([0m[33mp[0m=[94m0[0m[94m.5[0m, [33minplace[0m=[94mFalse[0m[1m)[0m                    [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m              [2m  [0m[1m([0mfc1[1m)[0m: [1;35mLinear[0m[1m([0m[33min_features[0m=[94m128[0m, [33mout_features[0m=[94m10[0m, [33mbias[0m=[94mTrue[0m[1m)[0m  [33m│[0m                                             [31m│[0m
+[31m│[0m [33m│[0m              [1m)[0m                                                             [33m│[0m                                             [31m│[0m
+[31m│[0m [33m╰────────────────────────────────────────────────────────────────────────────╯[0m                                             [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m [2;33m/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/[0m[1;33mdata.py[0m:[94m38[0m in [92mcorrupt_mnist[0m                      [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m   [2m35 [0m                                                                                                                      [31m│[0m
+[31m│[0m   [2m36 [0m[94mdef[0m [92mcorrupt_mnist[0m() -> [96mtuple[0m[torch.utils.data.Dataset, torch.utils.data.Dataset]:                                     [31m│[0m
+[31m│[0m   [2m37 [0m[2;90m│   [0m[33m"""Return train and test datasets for corrupt MNIST."""[0m                                                           [31m│[0m
+[31m│[0m [31m❱ [0m38 [2m│   [0mtrain_images = torch.load([33m"[0m[33mdata/processed/train_images.pt[0m[33m"[0m)                                                       [31m│[0m
+[31m│[0m   [2m39 [0m[2m│   [0mtrain_target = torch.load([33m"[0m[33mdata/processed/train_target.pt[0m[33m"[0m)                                                       [31m│[0m
+[31m│[0m   [2m40 [0m[2m│   [0mtest_images = torch.load([33m"[0m[33mdata/processed/test_images.pt[0m[33m"[0m)                                                         [31m│[0m
+[31m│[0m   [2m41 [0m[2m│   [0mtest_target = torch.load([33m"[0m[33mdata/processed/test_target.pt[0m[33m"[0m)                                                         [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m [2;33m/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/torch/[0m[1;33mserialization.py[0m:[94m998[0m in [92mload[0m                    [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m   [2m 995 [0m[2m│   [0m[94mif[0m [33m'[0m[33mencoding[0m[33m'[0m [95mnot[0m [95min[0m pickle_load_args.keys():                                                                   [31m│[0m
+[31m│[0m   [2m 996 [0m[2m│   │   [0mpickle_load_args[[33m'[0m[33mencoding[0m[33m'[0m] = [33m'[0m[33mutf-8[0m[33m'[0m                                                                      [31m│[0m
+[31m│[0m   [2m 997 [0m[2m│   [0m                                                                                                                [31m│[0m
+[31m│[0m [31m❱ [0m 998 [2m│   [0m[94mwith[0m _open_file_like(f, [33m'[0m[33mrb[0m[33m'[0m) [94mas[0m opened_file:                                                                   [31m│[0m
+[31m│[0m   [2m 999 [0m[2m│   │   [0m[94mif[0m _is_zipfile(opened_file):                                                                                [31m│[0m
+[31m│[0m   [2m1000 [0m[2m│   │   │   [0m[2m# The zipfile reader is going to advance the current file position.[0m                                     [31m│[0m
+[31m│[0m   [2m1001 [0m[2m│   │   │   [0m[2m# If we want to actually tail call to torch.jit.load, we need to[0m                                        [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m [33m╭─[0m[33m──────────────────────────────────────────────────[0m[33m locals [0m[33m──────────────────────────────────────────────────[0m[33m─╮[0m           [31m│[0m
+[31m│[0m [33m│[0m                f = [33m'data/processed/train_images.pt'[0m                                                          [33m│[0m           [31m│[0m
+[31m│[0m [33m│[0m     map_location = [94mNone[0m                                                                                      [33m│[0m           [31m│[0m
+[31m│[0m [33m│[0m             mmap = [94mFalse[0m                                                                                     [33m│[0m           [31m│[0m
+[31m│[0m [33m│[0m pickle_load_args = [1m{[0m[33m'encoding'[0m: [33m'utf-8'[0m[1m}[0m                                                                     [33m│[0m           [31m│[0m
+[31m│[0m [33m│[0m    pickle_module = [1m<[0m[1;95mmodule[0m[39m [0m[33m'pickle'[0m[39m from [0m[33m'/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/pickle.py'[0m[1m>[0m [33m│[0m           [31m│[0m
+[31m│[0m [33m│[0m   UNSAFE_MESSAGE = [33m'Weights only load failed. Re-running `torch.load` with `weights_only` set to `Fa'[0m+[94m150[0m    [33m│[0m           [31m│[0m
+[31m│[0m [33m│[0m     weights_only = [94mFalse[0m                                                                                     [33m│[0m           [31m│[0m
+[31m│[0m [33m╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[0m           [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m [2;33m/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/torch/[0m[1;33mserialization.py[0m:[94m445[0m in [92m_open_file_like[0m         [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m   [2m 442 [0m                                                                                                                    [31m│[0m
+[31m│[0m   [2m 443 [0m[94mdef[0m [92m_open_file_like[0m(name_or_buffer, mode):                                                                          [31m│[0m
+[31m│[0m   [2m 444 [0m[2m│   [0m[94mif[0m _is_path(name_or_buffer):                                                                                    [31m│[0m
+[31m│[0m [31m❱ [0m 445 [2m│   │   [0m[94mreturn[0m _open_file(name_or_buffer, mode)                                                                     [31m│[0m
+[31m│[0m   [2m 446 [0m[2m│   [0m[94melse[0m:                                                                                                           [31m│[0m
+[31m│[0m   [2m 447 [0m[2m│   │   [0m[94mif[0m [33m'[0m[33mw[0m[33m'[0m [95min[0m mode:                                                                                             [31m│[0m
+[31m│[0m   [2m 448 [0m[2m│   │   │   [0m[94mreturn[0m _open_buffer_writer(name_or_buffer)                                                              [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m [33m╭─[0m[33m────────────────────[0m[33m locals [0m[33m─────────────────────[0m[33m─╮[0m                                                                      [31m│[0m
+[31m│[0m [33m│[0m           mode = [33m'rb'[0m                             [33m│[0m                                                                      [31m│[0m
+[31m│[0m [33m│[0m name_or_buffer = [33m'data/processed/train_images.pt'[0m [33m│[0m                                                                      [31m│[0m
+[31m│[0m [33m╰───────────────────────────────────────────────────╯[0m                                                                      [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m [2;33m/Users/htr365/opt/anaconda3/envs/mlops2/lib/python3.10/site-packages/torch/[0m[1;33mserialization.py[0m:[94m426[0m in [92m__init__[0m                [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m   [2m 423 [0m                                                                                                                    [31m│[0m
+[31m│[0m   [2m 424 [0m[94mclass[0m [4;92m_open_file[0m(_opener):                                                                                          [31m│[0m
+[31m│[0m   [2m 425 [0m[2m│   [0m[94mdef[0m [92m__init__[0m([96mself[0m, name, mode):                                                                                 [31m│[0m
+[31m│[0m [31m❱ [0m 426 [2m│   │   [0m[96msuper[0m().[92m__init__[0m([96mopen[0m(name, mode))                                                                          [31m│[0m
+[31m│[0m   [2m 427 [0m[2m│   [0m                                                                                                                [31m│[0m
+[31m│[0m   [2m 428 [0m[2m│   [0m[94mdef[0m [92m__exit__[0m([96mself[0m, *args):                                                                                      [31m│[0m
+[31m│[0m   [2m 429 [0m[2m│   │   [0m[96mself[0m.file_like.close()                                                                                      [31m│[0m
+[31m│[0m                                                                                                                            [31m│[0m
+[31m│[0m [33m╭─[0m[33m──────────────────────────[0m[33m locals [0m[33m───────────────────────────[0m[33m─╮[0m                                                          [31m│[0m
+[31m│[0m [33m│[0m mode = [33m'rb'[0m                                                   [33m│[0m                                                          [31m│[0m
+[31m│[0m [33m│[0m name = [33m'data/processed/train_images.pt'[0m                       [33m│[0m                                                          [31m│[0m
+[31m│[0m [33m│[0m self = [1m<[0m[1;95mtorch.serialization._open_file[0m[39m object at [0m[94m0x13cbeb760[0m[1m>[0m [33m│[0m                                                          [31m│[0m
+[31m│[0m [33m╰───────────────────────────────────────────────────────────────╯[0m                                                          [31m│[0m
+[31m╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[0m
+[1;91mFileNotFoundError: [0m[1m[[0mErrno [1;36m2[0m[1m][0m No such file or directory: [32m'data/processed/train_images.pt'[0m
