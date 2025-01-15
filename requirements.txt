@@ -146,7 +146,6 @@ soupsieve==2.4
 stack-data==0.6.2
 sympy==1.13.3
 terminado==0.17.1
--e git+ssh://git@github.com/johanna-einsiedler/MLOpsCourse.git@7f67a49532335506afbeef111fe512ba3abad362#egg=test_project&subdirectory=jae_repo_1
 threadpoolctl==3.5.0
 tinycss2==1.1.1
 tokenizers==0.21.0
@@ -158,7 +157,6 @@ tornado==6.2
 tqdm==4.67.1
 traitlets==5.14.3
 transformers==4.48.0
--e git+https://github.com/johanna-einsiedler/SoDaOps@9171deb57e158b08566020dd9af8739f28333e5e#egg=tweet_sentiment_anlaysis
 typer==0.15.1
 typing_extensions==4.12.2
 tzdata==2024.2
