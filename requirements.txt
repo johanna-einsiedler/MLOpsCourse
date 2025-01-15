@@ -172,4 +172,3 @@ websocket-client==1.8.0
 widgetsnbextension==4.0.5
 xxhash==3.5.0
 yarl==1.18.3
--e ./src/test_project
