@@ -2,6 +2,11 @@ from test_project.model import MyAwesomeModel
 import torch
 import pytest
 
+
+
+
+
+
 @pytest.mark.parametrize("batch_size", [32, 64])
 def test_model(batch_size: int):
     model = MyAwesomeModel()
@@ -9,3 +14,4 @@ def test_model(batch_size: int):
     y = model(x)
     assert y.shape == (batch_size, 10)
 
+print('test')
