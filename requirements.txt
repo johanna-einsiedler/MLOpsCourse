@@ -147,7 +147,7 @@ stack-data==0.6.2
 sympy==1.13.3
 terminado==0.17.1
 threadpoolctl==3.5.0
-tinycss2==1.1.1
+tinycss2==1.4.0
 tokenizers==0.21.0
 tomli==2.2.1
 torch==2.2.2
