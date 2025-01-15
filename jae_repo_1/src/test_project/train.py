@@ -22,7 +22,7 @@ def train(lr: float = 0.001, batch_size: int = 32, epochs: int = 5) -> None:
     )
 
     model = MyAwesomeModel().to(DEVICE)
-    train_set, _ = corrupt_mnist()
+    train_set, _ = corrupt_mnist('/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/data/processed/')
 
     train_dataloader = torch.utils.data.DataLoader(train_set, batch_size=batch_size)
 

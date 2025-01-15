@@ -1,0 +1,44 @@
+{
+  "os": "macOS-15.2-x86_64-i386-64bit",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-01-15T09:26:15.961531Z",
+  "program": "/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/train.py",
+  "codePath": "jae_repo_1/src/test_project/train.py",
+  "git": {
+    "remote": "git@github.com:johanna-einsiedler/MLOpsCourse.git",
+    "commit": "ae63015357324102ff37e664261d8f19e149394a"
+  },
+  "email": "j.eremita@gmx.at",
+  "root": "/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1",
+  "host": "SAM1016866",
+  "executable": "/Users/htr365/opt/anaconda3/envs/sodasops2/bin/python",
+  "codePathLocal": "src/test_project/train.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "228507402240"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "228507402240"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Unknown",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 8,
+    "swapTotalBytes": "18253611008",
+    "ramTotalBytes": "8589934592"
+  }
+}
