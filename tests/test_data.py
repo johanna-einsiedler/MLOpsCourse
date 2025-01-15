@@ -1,7 +1,9 @@
-from test_project.data import corrupt_mnist
-import torch
 import os
+
 import pytest
+import torch
+
+from test_project.data import corrupt_mnist
 
 file_path = "/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/data/processed/"
 @pytest.mark.skipif(not os.path.exists(file_path), reason="Data files not found")

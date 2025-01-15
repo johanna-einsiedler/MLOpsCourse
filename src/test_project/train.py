@@ -1,13 +1,14 @@
 import os
+from pathlib import Path
+
 import matplotlib.pyplot as plt
 import torch
 import typer
+from sklearn.metrics import RocCurveDisplay, accuracy_score, f1_score, precision_score, recall_score
+
 import wandb
-from pathlib import Path
 from test_project.data import corrupt_mnist
 from test_project.model import MyAwesomeModel
-from sklearn.metrics import RocCurveDisplay
-from sklearn.metrics import RocCurveDisplay, accuracy_score, f1_score, precision_score, recall_score
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 

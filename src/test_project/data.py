@@ -1,10 +1,8 @@
 from pathlib import Path
 
-import typer
-from torch.utils.data import Dataset
-
 import torch
 import typer
+from torch.utils.data import Dataset
 
 
 def normalize(images: torch.Tensor) -> torch.Tensor:

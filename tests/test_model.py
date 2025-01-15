@@ -1,10 +1,7 @@
-from test_project.model import MyAwesomeModel
-import torch
 import pytest
+import torch
 
-
-
-
+from test_project.model import MyAwesomeModel
 
 
 @pytest.mark.parametrize("batch_size", [32, 64])
