@@ -1,0 +1,16 @@
+{
+  "os": "macOS-15.2-x86_64-i386-64bit",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-01-14T09:28:34.894714Z",
+  "program": "/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1/src/test_project/train.py",
+  "codePath": "jae_repo_1/src/test_project/train.py",
+  "git": {
+    "remote": "git@github.com:johanna-einsiedler/MLOpsCourse.git",
+    "commit": "2e6913bab67ff64664e5cb422572c96bda0ab022"
+  },
+  "email": "j.eremita@gmx.at",
+  "root": "/Users/htr365/Documents/PhD/MLOps/MLOpsCourse/jae_repo_1",
+  "host": "SAM1016866",
+  "executable": "/Users/htr365/opt/anaconda3/envs/sodasops2/bin/python",
+  "codePathLocal": "src/test_project/train.py"
+}
