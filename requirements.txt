@@ -172,4 +172,4 @@ websocket-client==1.8.0
 widgetsnbextension==4.0.5
 xxhash==3.5.0
 yarl==1.18.3
--e https://github.com/johanna-einsiedler/MLOpsCourse.git@7f67a49532335506afbeef111fe512ba3abad362#egg=test_project&subdirectory=jae_repo_1
+-e git+https://github.com/johanna-einsiedler/MLOpsCourse.git@7f67a49532335506afbeef111fe512ba3abad362#egg=test_project&subdirectory=jae_repo_1
